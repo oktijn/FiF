@@ -1,0 +1,81 @@
+@font-face {
+    font-family: UniversNextPro;
+    src: url(../fonts/UniversNextPro.ttf) format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Alexandria;
+    src: url(../fonts/Alexandria.ttf) format("truetype")
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #e4bfa5;
+    width: fit-content;
+}
+
+.wrapper {
+    vertical-align: top;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    background-image: url(../images/stormbg2.gif);
+    height: 50px;
+    width: fit-content;
+}
+
+h1 {
+    font-family: UniversNextPro;
+}
+
+p,
+footer {
+    font-family: Alexandria;
+}
+
+h1 {
+    text-align: center;
+}
+
+article {
+    background-color: #d8b59c;
+}
+
+.links {
+    text-align: left;
+}
+
+.about-us {
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #ffffff50;
+}
+
+.invert {
+    filter: invert(100%);
+}
+
+.socialmedia-button {
+    filter: brightness(0.75);
+}
+
+.socialmedia-button:hover {
+    filter: brightness(1);
+}
+
+footer {
+    font-size: 75%;
+    font-weight: bold;
+}
