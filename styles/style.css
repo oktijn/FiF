@@ -76,7 +76,7 @@ h2 {
 article {
     background-color: #d8b59c;
     border-radius: 10px;
-    width: 25%;
+    width: auto;
     padding: 5px;
     margin-top: 10px;
 }
