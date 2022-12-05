@@ -15,6 +15,30 @@ a {
 
 body {
     background-color: #e4bfa5;
+}
+
+aside {
+    text-align: center;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: #ff6a00;
+}
+
+a:hover {
+    color: #f26053;
+}
+
+a:active {
+    color: #B07143;
+}
+
+.center {
+    text-align: center;
     width: fit-content;
 }
 
