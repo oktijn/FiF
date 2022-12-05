@@ -22,10 +22,15 @@ header {
     background-image: url(../images/stormbg2.gif);
     height: 50px;
     width: fit-content;
+    border-radius: 5px;
 }
 
 h1 {
     font-family: UniversNextPro;
+}
+
+.outofbounds {
+    margin-left: 10px;
 }
 
 p,
