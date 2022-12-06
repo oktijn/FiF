@@ -135,8 +135,15 @@ article {
 .description {
   line-height: 0;
   text-align: left;
-  margin-top: 0px;
   margin-left: 17px;
+}
+
+#description1 {
+  margin-top: 0px;
+}
+
+#description2 {
+  margin-top: 16px;
 }
 
 .roundimg {
@@ -149,7 +156,7 @@ article {
 }
 
 .terminology {
-  margin-bottom: 100px;
+  margin-bottom: 250px;
 }
 
 .contents {
